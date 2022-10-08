@@ -1,0 +1,158 @@
+/* Globales */
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Header */
+header {
+    width: 100%;
+    margin-bottom: 70px;
+    background-color: white;
+    box-shadow:  2px 2px 2px  #b8b8b8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+h1 {
+    width: 30%;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.pio {
+    color: red;
+}
+
+h1 a {
+    color: black;
+    font-size: 45px;
+}
+
+.sectionHeader {
+    margin-right: 40px;
+}
+
+.sectionHeader a {
+    color: blue;
+}
+
+/* Main */
+
+main {
+    margin-left: 150px;
+    
+}
+
+h2 {
+    font-size: 25px;
+}
+
+/* Logos de google y facebook */
+.redesSociales {
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.simbolos {
+    padding: 8px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+div .face {
+    background-color: #365ead;
+}
+
+div .goo {
+    background-color: #367ef4;
+}
+
+.simbolos a {
+    color: white;
+}
+
+.logos {
+    padding: 1px;
+    background-color: white;
+}
+
+/* Esta clase la he añadido dentro de las clase del logo */
+.coa {
+    color: #4286f5;
+}
+
+/* Formulario */
+
+legend {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.formularios {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.formularios input {
+    padding: 8px;
+    width: 500px;
+    max-width: 500px;
+}
+
+.formularios-check {
+    margin-top: 20px;
+}
+
+.formularios-check a {
+    color: blue;
+}
+
+button {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 1px dashed grey;
+    border-radius: 20px;
+}
+
+/* Footer */
+footer {
+    box-shadow:  2px -2px 2px  #b8b8b8;
+    margin-top: 100px;
+    
+}
+
+.footer {
+    margin-left: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+footer a {
+    color:inherit #b8b8b8;
+}
+
+.footer a {
+    color: #6c6c6c;
+}
+
+.enlacesFooter {
+    display: flex;
+    gap: 10px;
+}

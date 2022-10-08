@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div>
+            <img src="./imagenes/Captura de pantalla 2022-09-28 a las 14.00.16.png" alt="">
+        </div>
+        <section>
+            <h1>Welcome to Mailchimp</h1>
+            <p class="primerTexto">Find your people. Engage your custimers. Build your brand. Do it all with Mailchimp´s Marketing Platform have an account? <a href="#">Log in</a></p>
+            
+            <form action="">
+                <fieldset>
+                    <div class="formularios">
+                        <label class="formulario" for="email">Email</label>
+                        <input class="formulario" type="email" id="email" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$">
+
+                        <!-- <input type="email" id="email" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$"> -->
+                    </div>
+                    <div class="formularios">
+                        <label class="formulario" for="username">Username</label>
+                        <input class="formulario" type="text" id="username" placeholder minlength="3" maxlength="12" required="Tu nombre de usuario">
+                    </div>
+                    <div class="formularios">
+                        <label class="formulario" for="password">Password</label>
+                        <input class="formulario" type="password" id="password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                    </div>
+                    <div class="ul">
+                        <ul>
+                            <li>One lowercase character</li>
+                            <li>One uppercase character</li>
+                            <li>One number</li>
+                        </ul>
+                        <ul>    
+                            <li>One special character</li>
+                            <li>8 character minimun</li>
+                        </ul>
+                    </div>
+                </fieldset>
+                <div class="botones">
+                    <button type="submit">Sing Up</button>
+                    <div class="boton">
+                        <input type="checkbox" id="check">
+                        <label for="check">I dont´t want to receive emails about new Mailchimp products, best practices, or special offers.</label>
+                    </div>
+                </div>
+            </form>
+                <p class="segundoTexto">By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp´s <a href="#">Terms os Use</a> and <a href="#">Privacy Policy</a></p>
+        </section>
+    </main>
+    
+</body>
+</html>

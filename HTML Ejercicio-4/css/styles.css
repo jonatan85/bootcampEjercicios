@@ -1,0 +1,79 @@
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+section {
+    width: 60%;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 45px;
+}
+
+.primerTexto {
+    margin-bottom: 15px;
+    width: 72%;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.formulario {
+    display: block;
+}
+
+.formularios {
+    width: 100%;
+}
+input.formulario {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+    padding: 10px;
+}
+.ul {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    line-height: 1.5;
+    display: flex;
+    gap: 150px;
+}
+
+li::before {
+    content: "●";
+    color: #007c89;
+    padding-right: 2px;
+
+}
+
+.botones {
+    
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-content: center;
+    position: relative;
+    right: 29px;
+}
+
+.botones button{
+    width: 30%;
+    padding: 9px 0px;
+    background-color: white;
+    border: 1px unset hsla(60, 6, 97, 0.1);
+    text-align: center;
+}
+
+.segundoTexto {
+    margin-right: 90px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+}
